@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- FORMULARIOS -->
+    <h1>FORMULARIO HTML</h1>
+    <!-- TODO FORMULARIO VA EMPAQUETADO O TIENE COMO PADRE LA ETIQUETA FORM -->
+    <!-- MANERAS DE ENVIAR FORUMARIO-->
+    <form action="messagesubmit.html">
+        <div>
+            <label for="name"> Ingrese su nombre</label>
+            <input id="name" type="text" autocomplete="off"  minlength="3" maxlength="12"/>
+        </div>
+        <div>
+            <label for="developer"> Ingrese su correo</label>
+            <input id="developer" type="email" autocomplete="off"/>
+        </div>
+        <div>
+            <label for="telephone"> Ingrese su Telefono</label>
+            <input id="telephone" type="number" autocomplete="off" required min="7"/>
+        </div>
+        <div>
+            <label for="job"> Ingrese su Trabajo</label>
+            <input id="job" type="text" autocomplete="off" disabled/>
+        </div>
+
+        <div>
+            <button type="submit">ENVIAR</button>
+          
+        </div>
+   </form>
+</body>
+</html>
