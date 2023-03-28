@@ -26,3 +26,12 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+
+h3{
+    font-size: 30px;
+    text-align: left;
+    font-weight: 300;
+    font-style:inherit;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
