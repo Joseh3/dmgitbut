@@ -1,0 +1,15 @@
+body{
+min-width: none;
+padding: 0;
+
+}
+h1{
+line-height:1.5;
+text-transform: lowercase;
+
+}
+
+span{
+
+    text-align: center;
+}
