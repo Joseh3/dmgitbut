@@ -1,15 +1,19 @@
+html{
+font-size: 10px;
+
+}
+
 body{
-min-width: none;
+min-height: 100vh;
+background-color: aquamarine;
 padding: 0;
+}
+section{
+font-size: 30px;
 
 }
 h1{
-line-height:1.5;
-text-transform: lowercase;
+    font-size: 3rem;
+    font-size: 1.5em;
 
-}
-
-span{
-
-    text-align: center;
 }
